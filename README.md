@@ -26,4 +26,10 @@ In jullie private repository vinden jullie een map ``/oplossingen`` terug. Hieri
 
 Dit betekent voor de meeste opdrachten dat je de opdracht-```.js``` file kopieert naar deze map en deze hierin verder uitwerkt. Commit vervolgens je opdracht naar je lokale git repository om hen dan uiteindelijk te pushen naar de remote repository, je eigen private repository op GitHub voor deze les. Op die manier dien je deze opdrachten in.
 
-**Tip:** maak alle opdrachten in **Webstorm**. Hier kan je je JavaScript code gewoon runnen door rechts op een file te klikken en te kiezen voor *Run 'naamvanfile.js'*. Je hebt geen browser nodig
+**Tip:** maak alle opdrachten in **Webstorm**. Hier kan je je JavaScript code gewoon runnen door rechts op een file te klikken en te kiezen voor *Run 'naamvanfile.js'*. Je hebt geen browser nodig.
+
+Zorg er wel voor dat je in Webstorm Javascript ES6 gebruikt:
+* Open preferences
+* Onder Languages & Frameworks vind je JavaScript terug - klik deze aan
+* JavaScript language version: ECMAScript6
+* Aplly & OK

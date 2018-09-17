@@ -61,7 +61,7 @@ getFinalPrice(500, 0.3); // 650
 # Opdrachten
 Bekijk step-by-step.js hoe in iedere stap een old-JavaScript-style functie wordt omgezet naar een arrow-functie
 
-Maak opdracht arrow-function.js. Opdracht staat in commentaar
+Maak opdracht arrow-function.js. Opdracht staat in commentaar.
 Het resultaat hiervan komt in de map /oplossingen. Hernoem de bestanden niet
 
 # Video op Lynda.com
