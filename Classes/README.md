@@ -110,8 +110,12 @@ And you can see that getName function is called without parenthesis. And setName
 # Opdrachten
 Bekijk aandachtig exampleClass.js
 
-Maak opdracht classes.js. Opdracht staat in commentaar
-Het resultaat hiervan komt in de map /oplossingen. Hernoem het bestand niet
+Maak opdrachten
+* classes.js
+* extends.js
+* getters.js
+
+Het resultaat hiervan komt in de map /oplossingen. Hernoem de bestanden niet
 
 # Video op Lynda.com
 > Video's op Lynda.com met extra uitleg
