@@ -41,7 +41,7 @@ A few things to keep in mind:
 * With `var` variables you can access them before they are defined but you can't access the value.
 * Temporal Dead Zone: You can't access a variable before it's defined.
 
-# Oefeningen
+# Opdrachten
 Bekijk volgende 2 kleine opdrachten, voer ze uit zonder aanpassingen te doen en pas ze daarna aan zoals beschreven in commentaar in de oefeningen. Het resultaat hiervan komt in de map /oplossingen. Hernoem de bestanden niet
 * const.js
 * var.js
