@@ -20,6 +20,8 @@ Voor meer verduidelijking kan je terug vallen op volgende playlist op Lynda.com:
 
 ## Opdrachten
 
+Bijna ieder hoofdstuk bevat een map ``/opdrachten``. Hierin vind je 1 of meerdere kleine opdrachten omtrent dit hoofdstuk. Lees aandachtig wat gevraagd wordt bij iedere opdracht. Vaak is het de bedoeling om de bestaande ES5 JavaScript code eerst even te runnen alvorens deze aan te passen om zo de verschillen verduidelijkt te zien.
+
 In jullie private repository vinden jullie een map ``/oplossingen`` terug. Hierin moeten alle oplossingen komen die bij de opdrachten horen.
 
 Dit betekent voor de meeste opdrachten dat je de opdracht-```.js``` file kopieert naar deze map en deze hierin verder uitwerkt. Commit vervolgens je opdracht naar je lokale git repository om hen dan uiteindelijk te pushen naar de remote repository, je eigen private repository op GitHub voor deze les. Op die manier dien je deze opdrachten in.
