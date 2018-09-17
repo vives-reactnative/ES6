@@ -177,7 +177,7 @@ const oddNumber = numbers.find(num => num % 2 == 1);
 console.log(oddNumber); // output: 1
 ```
 
-*Merk op*: Er is wel degelijk een verschil tussen de ES5 filter() en de ES6 find() functies. Filter() zal altijd een array retourneren van de gevonden elementen (zal meerdere matches retourneren), terwijl find() altijd slechts 1 match terug zal geven
+**Merk op**: Er is wel degelijk een verschil tussen de ES5 filter() en de ES6 find() functies. Filter() zal altijd een array retourneren van de gevonden elementen (zal meerdere matches retourneren), terwijl find() altijd slechts 1 match terug zal geven
 
 ### findIndex()
 De ```findIndex()``` functie gedraagt zich hetzelfde als de find() functie, met dat verschil dat de index van het eerst gevonden element wordt geretourneerd ipv het element zelf
@@ -203,7 +203,9 @@ for(let j of numbers) {
 // 5
 // 6
 ```
+# Opdracht
+Gegeven is het bestand opdrachten/students.js, met daarin een array met studenten.
 
+Maak gebruik van de Array functies ``filter()``, ``map()`` en ``forEach()`` om alle studenten van de A-klas op de console te tonen, waarbij als er voor een student geen score is ingevuld (```score: null```) dit wordt aangepast naar ```score: 'NA'```
 
- 
-# Oefening
+Probeer deze opdracht tot een goed einde te brengen zonder nieuwe variabelen aan te maken.

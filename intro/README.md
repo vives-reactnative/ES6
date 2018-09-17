@@ -1,7 +1,9 @@
 # Intro Modern JavaScript
 
 ## Voorafgaand
-Vroeger kon je gewoon een ```<script>```-tag toevoegen in de header van je webpagina en je Javascript code zou uitgevoerd worden zoals bedoeld. Dit werd vooral gebruikt voor minder complexe zaken. Wou je toch graag iets complexere functionaliteit toevoegen dan kreeg je al snel vrij complexe Javascript code. Denk maar als je in Javascript object georiënteerd een Class wil gebruiken om je gegevens bij te houden. Dan kom je al snel uit op iets gelijkaardigs als dit:
+Vroeger kon je gewoon een ```<script>```-tag toevoegen in de header van je webpagina en je Javascript code zou uitgevoerd worden zoals bedoeld. Dit werd vooral gebruikt voor minder complexe zaken. Wou je toch graag iets complexere functionaliteit toevoegen dan kreeg je al snel vrij complexe Javascript code.
+
+Denk maar als je in Javascript object georiënteerd een Class wil gebruiken om je gegevens bij te houden. Dan kom je al snel uit op iets gelijkaardigs als dit:
 ```JavaScript
 var _createClass = function () { function defineProperties(target, props) { for (var i = 0; i < props.length; i++) { var descriptor = props[i]; descriptor.enumerable = descriptor.enumerable || false; descriptor.configurable = true; if ("value" in descriptor) descriptor.writable = true; Object.defineProperty(target, descriptor.key, descriptor); } } return function (Constructor, protoProps, staticProps) { if (protoProps) defineProperties(Constructor.prototype, protoProps); if (staticProps) defineProperties(Constructor, staticProps); return Constructor; }; }();
 
