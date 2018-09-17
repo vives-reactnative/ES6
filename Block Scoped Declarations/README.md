@@ -28,8 +28,7 @@ Another form of block-scoped declaration is the `const`, which creates constants
 }
 ```
 
-A few things to keep in mind:
-
+## A few things to keep in mind:
 * Hoisting of `let` and `const` vary from the traditional hoisting of variables and functions. Both `let` and `const` are hoisted, but cannot be accessed before their declaration, because of [Temporal Dead Zone]((##-Temporal-Dead-Zone))
 * `let` and `const` are scoped to the nearest enclosing block.
 * When using const with fixed strings or values, CAPITAL_CASING might be appropriate (ex: `const PI = 3.14`)
