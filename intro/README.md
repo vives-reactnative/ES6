@@ -62,3 +62,5 @@ Babel en React Native gaan dus hand in hand.
 
 ### Babel configureren
 Babel is een zeer configureerbare tool. Je kan babel gaan configureren door een .babelrc bestand toe te voegen in de root map van je project. Dit bestand zal specifieren welke JS features moeten worden ingeschakeld en welke plugins er worden gebruikt. Bijvoorbeeld JSX. React Native zal out of the box babel correct configureren voor ons bij het aanmaken van een nieuw project, waardoor wij over het algemeen geen aanpassingen hoeven te maken in .babelrc
+
+Bron: https://babeljs.io/docs/en
