@@ -1,2 +1,4 @@
 # ES6
-Introductie in ES6
+Modern JavaScript: ES6
+
+1. [Intro Modern JavaScript](../intro/README.md)
