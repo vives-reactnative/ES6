@@ -1,4 +1,3 @@
-# ES6
-Modern JavaScript: ES6
+# Modern JavaScript: ES6
 
-1. [Intro Modern JavaScript](../intro/README.md)
+1. [Intro Modern JavaScript](intro)
