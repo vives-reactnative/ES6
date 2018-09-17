@@ -1,6 +1,6 @@
 # Arrow Functions
 
-## new syntax
+## New syntax
 Functions in ES6 have changed a bit. I mean the syntax.
 ```javascript
 // Old Syntax
@@ -68,6 +68,7 @@ Het resultaat hiervan komt in de map /oplossingen. Hernoem de bestanden niet
 > Optioneel video op Lynda.com met extra uitleg
 
 Playlist: https://www.lynda.com/SharedPlaylist/b8d44f1e7efb423585c9f30dcc3902fa
+
 Video:
 * Arrow functions
 * Default function parameters

@@ -42,7 +42,8 @@ A few things to keep in mind:
 * Temporal Dead Zone: You can't access a variable before it's defined.
 
 # Opdrachten
-Bekijk volgende 2 kleine opdrachten, voer ze uit zonder aanpassingen te doen en pas ze daarna aan zoals beschreven in commentaar in de oefeningen. Het resultaat hiervan komt in de map /oplossingen. Hernoem de bestanden niet
+Bekijk volgende 2 kleine opdrachten, voer ze uit zonder aanpassingen te doen en pas ze daarna aan zoals beschreven in commentaar in de oefeningen.
+Het resultaat hiervan komt in de map /oplossingen. Hernoem de bestanden niet
 * const.js
 * var.js
 
@@ -50,4 +51,7 @@ Bekijk volgende 2 kleine opdrachten, voer ze uit zonder aanpassingen te doen en 
 > Optioneel video op Lynda.com met extra uitleg
 
 Playlist: https://www.lynda.com/SharedPlaylist/b8d44f1e7efb423585c9f30dcc3902fa
-Video: Let keyword & Const keyword
+
+Video:
+* Let keyword
+* Const keyword
