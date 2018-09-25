@@ -52,6 +52,8 @@ Tegenwoordig wordt onze Javascript code gepreprocesst zodat we kunnen gebruik ma
 Babel is de belangrijkste tool voor het preprocessen van JavaScript. Met behulp van Babel wordt ECMAScript 2015+ code omgezet naar een backward compatible versie van JavaScript dat op een groter aantal platformen kan worden ondersteund.
 Babel zal dus je Modern JavaScript sourcecode en syntax gaan transformeren naar old-style JavaScript.
 
+ECMAScript 6 compatibility table: http://kangax.github.io/compat-table/es6/
+
 Babel maakt het ook mogelijk om je oorspronkelijke broncode te gaan debuggen door source maps op te nemen in de gecompileerde JavaScript. JavaScript interpreters voeren de gecompileerde code uit, maar wijzen deze toe aan de originele broncode in de debugger. Op die manier kan je de broncode debuggen in plaas van de (over het algemeen vrij lelijke) gecompilerde output-code.
 
 ### Babel en React Native
