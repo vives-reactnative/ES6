@@ -113,6 +113,9 @@ Maak de opdracht
 
 - modules
 
+De files `libA` en `libB` in de map `/exports` zijn reeds aanwezig in de map `/oplossingen`. Mogelijk moet je ook iets aanpassen in 1 van beide files.
+De rest van de opdracht vind je terug in de file `modules.js`
+
 # Video op Lynda.com
 
 Geen video over Modules op Lynda.com
