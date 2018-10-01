@@ -1,14 +1,14 @@
 # Arrow Functions
 
 ## New syntax
-Functions in ES6 have changed a bit. I mean the syntax.
+Functions in ES6 have changed a bit. The syntax in particular.
 ```javascript
 // Old Syntax
 function oldOne() {
  console.log("Hello World..!");
 }
 // New Syntax
-var newOne = () => {
+const newOne = () => {
  console.log("Hello World..!");
 }
 ```
@@ -57,6 +57,7 @@ getFinalPrice(500, 0.3); // 650
 * If you have one parameter you don't have to use ()
 * Explicit return; if you write the return keyword
 * Implicit return; remove curly brackets it will assume you want to implicit return
+* Use const for arrow function
 
 # Opdrachten
 Bekijk step-by-step.js hoe in iedere stap een old-JavaScript-style functie wordt omgezet naar een arrow-functie

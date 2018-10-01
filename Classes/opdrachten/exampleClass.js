@@ -16,8 +16,13 @@ class Dog {
     this.nick = value.trim();
   }
   get nicknames() {
-    return this.nick.toUpperCase;
+    return this.nick.toUpperCase();
   }
 }
 
 const snickers = new Dog('Snickers', 'King Charles');
+snickers.bark();
+snickers.cuddle();
+snickers.nicknames = "Snicky";
+console.log(snickers.nicknames);
+Dog.info();

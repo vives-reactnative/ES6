@@ -5,7 +5,7 @@
 When used with any iterable, it acts as to "spread" it into individual elements:
 
 ```javascript
-function foo(x, y, z) {
+const foo = (x, y, z) => {
     console.log(x, y, z);
 }
 
@@ -34,7 +34,7 @@ console.log([...arr1, 4, 5, 6, ...arr2]) // [1, 2, 3, 4, 5, 6, 7, 8, 9]
 The other common usage of `...` is gathering all arguments together into an array. This is referred as "rest" operator.
 
 ```javascript
-function foo(...args) {
+const foo = (...args) => {
     console.log(args);
 }
 foo(1, 2, 3, 4, 5); // [1, 2, 3, 4, 5]

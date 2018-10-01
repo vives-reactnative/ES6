@@ -114,6 +114,7 @@ Maak opdrachten
 * classes.js
 * extends.js
 * getters.js
+* refactorIntoClass.js
 
 Het resultaat hiervan komt in de map /oplossingen. Hernoem de bestanden niet
 

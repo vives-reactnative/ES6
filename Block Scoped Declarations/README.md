@@ -45,6 +45,8 @@ Bekijk volgende 2 kleine opdrachten, voer ze uit zonder aanpassingen te doen en 
 Het resultaat hiervan komt in de map /oplossingen. Hernoem de bestanden niet
 * const.js
 * var.js
+Bekijk en voer ook volgend javascript bestand uit. Zorg ervoor dat je kan uitleggen wat er verkeerd loopt.
+* examples.js
 
 # Video op Lynda.com
 > Optioneel video op Lynda.com met extra uitleg

@@ -3,7 +3,7 @@
 Destructuring is a convenient way to extract multiple keys from an object or array simultaneously and assign the values to local variables.
 
 ```javascript
-function foo() {
+const foo = () => {
     return [1, 2, 3];
 }
 let arr = foo(); // [1,2,3]
@@ -11,13 +11,16 @@ let arr = foo(); // [1,2,3]
 let [a, b, c] = foo();
 console.log(a, b, c); // 1 2 3
 
-function bar() {
+const bar = () => {
     return {
         x: 4,
         y: 5,
         z: 6
     };
 }
+let {x, y, z} = bar();
+console.log(x, y, z); // 4 5 6
+
 let { x: a, y: b, z: c } = bar();
 console.log(a, b, c); // 4 5 6
 ```
