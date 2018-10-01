@@ -131,7 +131,7 @@ console.log(numbers); // output: [1, 2, 3, 4, 5, 6];
 
 ### map()
 
-De `map()` functie creërt een nieuwe array door over de oorspronkelijke array te loopen en op ieder element de meegegeven functie aan te roepen
+De `map()` functie creërt een nieuwe array door over de oorspronkelijke array te loopen en op ieder element de meegegeven functie aan te roepen. Het aantal elementen in de resultaat array is exact hetzelfde als het aantal elementen waarop de `map()` functie wordt op uitgevoerd.
 
 ```javascript
 const numbers = [1, 2, 3, 4, 5, 6];
@@ -217,7 +217,7 @@ epic.reduce(function(previous, current) {
 // >> 'a long time ago in a galaxy far far away'
 ```
 
-De `reduce()` functie heeft ook een tweede optioneel argument. Dit is de _initialValue_.
+Aan de `reduce()` functie kan ook een tweede optioneel argument worden meegegeven. Dit is de _initialValue_.
 Deze waarde wordt gebruikt om als _vorige_ mee te geven in de eerste aanroeping van de callbackfunctie. Als geen _initialValue_ wordt meegegeven dan wordt het eerste element in de array gebruikt
 
 ```javascript
@@ -235,7 +235,7 @@ console.log(array1.reduce(reducer, 5));
 
 ### Array.of()
 
-Deze functie creërt een array van alle argumenten die erin worden doorgegeven
+Deze functie creëert een array van alle argumenten die erin worden doorgegeven
 
 ```javascript
 const numbers = Array.of(1, 2, 3, 4, 5, 6);
@@ -256,6 +256,8 @@ console.log(oddNumber); // output: 1
 ```
 
 **Merk op**: Er is wel degelijk een verschil tussen de ES5 filter() en de ES6 find() functies. Filter() zal altijd een array retourneren van de gevonden elementen (zal meerdere matches retourneren), terwijl find() altijd slechts 1 match terug zal geven
+
+Indien er geen match wordt gevonden, word `undefined` geretourneerd
 
 ### findIndex()
 
@@ -287,11 +289,15 @@ for (let j of numbers) {
 # Opdrachten
 
 **reduce.js**
+
 De naam van het bestand verklapt al enigsinds welke native array functie je hiervoor het best gebruikt.
 
 **students.js**
+
 Gegeven is het bestand `opdrachten/students.js`, met daarin een array met studenten.
 
-Maak gebruik van de Array functies `filter()`, `map()` en `forEach()` om alle studenten van de A-klas op de console te tonen, waarbij als er voor een student geen score is ingevuld (`score: null`) dit wordt aangepast naar `score: 'NA'`
+1. Maak gebruik van de Array functies `filter()`, `map()` en `forEach()` om alle studenten van de A-klas op de console te tonen, waarbij als er voor een student geen score is ingevuld (`score: null`) dit wordt aangepast naar `score: 'NA'`
 
 Probeer deze opdracht tot een goed einde te brengen zonder nieuwe variabelen aan te maken.
+
+2. Maak gebruik van de Array functies `filter()` en `some()` om na te gaan of er studenten in de B-klas zitten met een score = 20
