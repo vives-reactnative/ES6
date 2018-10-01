@@ -1,1 +1,5 @@
-export default () => { console.log('This is the default function') }
+export default class Person{
+    constructor (firstname){
+        this.firstname = firstname;
+    }
+}
