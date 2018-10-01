@@ -290,11 +290,11 @@ for (let j of numbers) {
 
 **reduce.js**
 
-De naam van het bestand verklapt al enigsinds welke native array functie je hiervoor het best gebruikt.
+De naam van het bestand verklapt al enigsinds welke native array functie je hiervoor het best gebruikt. Opdracht staat in commentaar in de file. Pas de bestandsnaam niet aan.
 
 **students.js**
 
-Gegeven is het bestand `opdrachten/students.js`, met daarin een array met studenten.
+Gegeven is het bestand `opdrachten/students.js`, met daarin een array met studenten. Voeg in dit bestand code toe om onderstaande 2 opdrachten tot een goed einde te brengen. Pas de bestandsnaam niet aan.
 
 1. Maak gebruik van de Array functies `filter()`, `map()` en `forEach()` om alle studenten van de A-klas op de console te tonen, waarbij als er voor een student geen score is ingevuld (`score: null`) dit wordt aangepast naar `score: 'NA'`
 
