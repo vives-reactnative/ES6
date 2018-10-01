@@ -4,41 +4,41 @@
 */
 
 function basic() {
-    // what is returned?
-    let x = 100
-    const y = 200
-    return {x: x, y: y}
+  // what is returned?
+  let x = 100;
+  const y = 200;
+  return { x: x, y: y };
 }
-console.log('Basic', basic());
+console.log("Basic", basic());
 
 function immutable() {
-    // what is returned?
-    const object = {a: 'b'}
-    const array = [1, 2, 3, 4]
+  // what is returned?
+  const object = { a: "b" };
+  const array = [1, 2, 3, 4];
 
-    object.a = 'q'
-    array[2] = 30;
-    array.push(5);
-    return {object: object, array: array}
+  object.a = "q";
+  array[2] = 30;
+  array.push(5);
+  return { object: object, array: array };
 }
-console.log('immutable', immutable());
+console.log("immutable", immutable());
 
 function immutableReference() {
-    // what is returned?
-    const object = {a: 'b'}
-    object = {a: 'q'}
-    return object
+  // what is returned?
+  const object = { a: "b" };
+  object = { a: "q" };
+  return object;
 }
-console.log('immutableReference', immutableReference());
+console.log("immutableReference", immutableReference());
 
 function temporalDeadZone() {
-    console.log(myVar)
-    console.log(myLet)
-    console.log(myConst)
+  console.log(myVar);
+  console.log(myLet);
+  console.log(myConst);
 
-    var myVar = 'var'
-    let myLet = 'let'
-    const myConst = 'const'
-    return {myVar: myVar, myLet: myLet, myConst: myConst}
+  var myVar = "var";
+  let myLet = "let";
+  const myConst = "const";
+  return { myVar: myVar, myLet: myLet, myConst: myConst };
 }
 console.log(temporalDeadZone());

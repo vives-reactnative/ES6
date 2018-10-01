@@ -295,4 +295,3 @@ Gegeven is het bestand `opdrachten/students.js`, met daarin een array met studen
 Maak gebruik van de Array functies `filter()`, `map()` en `forEach()` om alle studenten van de A-klas op de console te tonen, waarbij als er voor een student geen score is ingevuld (`score: null`) dit wordt aangepast naar `score: 'NA'`
 
 Probeer deze opdracht tot een goed einde te brengen zonder nieuwe variabelen aan te maken.
-

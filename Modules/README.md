@@ -12,7 +12,7 @@ Everything inside an ES6 module is private by default. Public variables, functio
 
 There are two kinds of exports: named exports (several per module) and default exports (one per module).
 
-### named exports
+### Named exports
 
 A module can export multiple things by prefixing their declarations with the keyword `export`. These exports are distinguished by their names and are called named exports.
 
@@ -60,7 +60,7 @@ function log(...msg) {
 export { PI, sum, diff };
 ```
 
-### default exports
+### Default exports
 
 Modules that only export single values are very popular in the Node.js community. But they are also common in frontend development where you often have constructors/classes for models, with one model per module. An ECMAScript 6 module can pick a default export, the most important exported value. Default exports are especially easy to import.
 
@@ -82,6 +82,7 @@ It's possible to have both named exports and a default export in a module
 Multiple items can be imported at one time.
 
 ```javascript
+// main.js
 import { sum, diff } from "./lib.js";
 
 console.log(sum(5, 2)); // 7
@@ -113,7 +114,8 @@ Maak de opdracht
 
 - modules
 
-De files `libA` en `libB` in de map `/exports` zijn reeds aanwezig in de map `/oplossingen`. Mogelijk moet je ook iets aanpassen in 1 van beide files.
+De files `person.js` en `vivesLib.js` in de map `/exports` zijn reeds aanwezig in de map `/oplossingen`. Mogelijk moet je ook iets aanpassen in 1 van beide files.
+
 De rest van de opdracht vind je terug in de file `modules.js`
 
 # Video op Lynda.com
