@@ -160,7 +160,7 @@ console.log(smallNum); // output: false
 
 ### every()
 
-De `every()` functie controleer of alle elementen in de array aan de meegegevn conditie voldoen. Alleen dan wordt true geretourneerd
+De `every()` functie controleert of alle elementen in de array aan de meegegeven conditie voldoen. Alleen dan wordt true geretourneerd
 
 ```javascript
 const numbers = [1, 2, 3, 4, 5, 6];
