@@ -86,7 +86,7 @@ Babel zal dus je Modern JavaScript sourcecode en syntax gaan transformeren naar 
 
 ECMAScript 6 compatibility table: http://kangax.github.io/compat-table/es6/
 
-Babel maakt het ook mogelijk om je oorspronkelijke broncode te gaan debuggen door source maps op te nemen in de gecompileerde JavaScript. JavaScript interpreters voeren de gecompileerde code uit, maar wijzen deze toe aan de originele broncode in de debugger. Op die manier kan je de broncode debuggen in plaas van de (over het algemeen vrij lelijke) gecompileerde output-code.
+Babel maakt het ook mogelijk om je oorspronkelijke broncode te gaan debuggen door source maps op te nemen in de gecompileerde JavaScript. JavaScript interpreters voeren de gecompileerde code uit, maar wijzen deze toe aan de originele broncode in de debugger. Op die manier kan je de broncode debuggen in plaats van de (over het algemeen vrij lelijke) gecompileerde output-code.
 
 ### Babel en React Native
 
@@ -99,6 +99,6 @@ Babel en React Native gaan dus hand in hand.
 
 ### Babel configureren
 
-Babel is een zeer configureerbare tool. Je kan babel gaan configureren door een .babelrc bestand toe te voegen in de root map van je project. Dit bestand zal specifieren welke JS features moeten worden ingeschakeld en welke plugins er worden gebruikt, bijvoorbeeld JSX. React Native zal out-of-the-box Babel correct configureren voor ons bij het aanmaken van een nieuw project, waardoor wij over het algemeen geen aanpassingen hoeven te maken in .babelrc
+Babel is een zeer configureerbare tool. Je kan babel gaan configureren door een .babelrc bestand of een babel.config.js bestand toe te voegen in de root map van je project. Dit bestand zal specifieren welke JS features moeten worden ingeschakeld en welke plugins er worden gebruikt. Bijvoorbeeld JSX. React Native zal out of the box babel correct configureren voor ons bij het aanmaken van een nieuw project, waardoor wij over het algemeen geen aanpassingen hoeven te maken in babel.config.js
 
 Bron: https://babeljs.io/docs/en
