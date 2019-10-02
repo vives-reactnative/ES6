@@ -1,7 +1,7 @@
 /*
-* Examine the output of the following 4 functions
-* Make sure you can explain what went wrong
-*/
+ * Examine the output of the following 4 functions
+ * Make sure you can explain what went wrong
+ */
 
 function basic() {
   // what is returned?
