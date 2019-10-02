@@ -1,4 +1,4 @@
-/* Use profile destructuring to capture the first and last name of the profile
+/* Use object destructuring to capture the first and last name of the profile
  * */
 const profile = {
   fname: 'Ryan',
