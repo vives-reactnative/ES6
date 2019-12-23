@@ -266,7 +266,7 @@ De `findIndex()` functie gedraagt zich hetzelfde als de find() functie, met dat 
 ```javascript
 const numbers = [1, 2, 3, 4, 5, 6];
 
-const oddNumber = numbers.find(num => num % 2 == 1);
+const oddNumber = numbers.findIndex(num => num % 2 == 1);
 console.log(oddNumber); // output: 0
 ```
 
